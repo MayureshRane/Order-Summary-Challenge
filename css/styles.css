@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+
+p {
+    padding: 0% 7%;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+}
+
+tr {
+    padding: 0;
+}
+
+.background {
+    background-image: url("pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 50px;
+}
+
+.music-boy {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order-card {
+    width: 25%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 0.25% auto;
+    padding-bottom: 35px;
+    box-shadow: 0 20px 25px -20px hsl(223, 47%, 23%);
+}
+
+.order-box {
+    width: 85%;
+    background-color: lightgray;
+    margin: 30px auto;
+    border-radius: 16px;
+    padding: 10px 0px;
+}
+
+.order-box-content {
+    text-align: left;
+    font-size: 0.8em;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+}
+
+.proceed-btn {
+    width: 85%;
+    background-color: hsl(245, 75%, 52%);
+    margin: 0 auto 30px auto;
+    padding: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px hsl(245, 36%, 76%);
+}
+
+.proceed-btn:hover {
+    background-color: hsl(245, 57%, 64%);
+}
+
+.cancel-btn {
+    margin: 40px auto;
+    color: hsl(224, 23%, 55%);
+    padding: 10px;
+}
+
+.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-change {
+    font-size: 0.8rem;
+    text-decoration: underline;
+    color: purple;
+}
+
+.plan-change:hover {
+    text-decoration: none;
+    color: lightpink;
+}
+
+.attribution {
+    background-color: rgb(66, 41, 41);
+    color: white;
+    font-size: 0.5rem;
+}
+
+.attribution a {
+    font-size: 0.5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 375px) {
+    .background {
+        background-image: url("../images/pattern-background-mobile.svg");
+    }
+
+    .order-card {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.125rem;
+    }
+
+    a {
+        font-size: 0.6rem
+    }
+
+    .plan-change {
+        font-size: 0.6rem;
+    }
+}
